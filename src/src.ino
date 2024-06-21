@@ -1,6 +1,3 @@
-Arduino Code
-===
-
 #include <Servo.h>
 #include <Wire.h>
 #include <MPU6050.h>
