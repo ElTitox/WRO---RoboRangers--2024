@@ -1,4 +1,4 @@
-[Diseño trasero](WRO---RoboRangers--2024/v-photos/Vista_del_frente_del_robot.jpeg) 
+[Diseño trasero](Vista_del_frente_del_robot.jpeg) 
 Como se puede observar, se diseño una tracción trasera con una caja de engranajes sacada de un carrito rc, modificada con un motor DC de hasta 12V , arriba de la caja esta puesto el puente H L298N. Mas al frente se nota la posición del arduino.
 
 [Diseño de abajo](v-photos/Vista_de_abajo_del_robot.jpeg) 
