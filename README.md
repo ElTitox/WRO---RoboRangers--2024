@@ -1,9 +1,9 @@
 # Robo Rangers 
 
 ## Los integrantes del equipo son:
-- Eldens Quintero  ()  
-- Jose Gutierrez ()
-- Hezir Corrales ()
+- Eldens Quintero  (Coordinador del equipo)  
+- Jose Gutierrez (Constructor del robot)
+- Hezir Corrales (Programador)
   
 ## Institución: Instituo América 
 - Tutor: Hector Ortega
