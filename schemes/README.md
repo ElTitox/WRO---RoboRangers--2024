@@ -1,8 +1,6 @@
 # Electromechanical diagrams
+Podran ver en fotos y archivos los esquemas de la propia plataforma del robot, del sistema de dirección y del circuito eléctrico.
 ====
+## Esquemático y diseño del circuito eléctrico.
+Para hacer el esquemático usamos el software Fritzing, si desea ver con mas detalle o modificar el circuito deberá de tenerlo descargado.
 
-This directory contain several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
-
-====
-
-https://drive.google.com/drive/folders/1BFrYx7TQMNsZ-jhGSzIUNuuPcAr27UuW
