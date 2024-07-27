@@ -3,6 +3,7 @@
 
 ## Esquemático y diseño del circuito eléctrico
 Para hacer el esquemático usamos el software Fritzing, si desea ver con mas detalle o modificar el circuito deberá de tenerlo descargado.
+[Archivo del circuito](Diseño_del_circuito_eléctrico.jpeg)
 
 [Diseño del circuito eléctrico](Diseño_del_circuito_eléctrico.jpeg)
 El diseño es muy parecido al setup real del circuito, la única diferencia es el medio en donde fueron construidos, el real en placa perforadas y este con ayuda de una protoboard.
