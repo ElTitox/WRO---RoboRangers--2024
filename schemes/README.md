@@ -1,4 +1,4 @@
-# Electromechanical diagrams
+# Diagramas Electromecánicos
 ### Podran ver en fotos y archivos los esquemas de la propia plataforma del robot, del sistema de dirección y del circuito eléctrico. 
 
 ## Esquemático y diseño del circuito eléctrico
