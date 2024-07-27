@@ -20,3 +20,4 @@ Los diagramas se hicieron en una hoja milímetrada, cada cuadrado mide 0.5cm, la
 
  9cm de ancho en el centro la lanza de 8cm y 17.5cm de largo
 7mm de ancho y 2.6cm
+largo de 2.3cm y 8mm de ancho
