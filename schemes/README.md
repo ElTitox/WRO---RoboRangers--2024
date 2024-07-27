@@ -13,7 +13,7 @@ El diseño es muy parecido al setup real del circuito, la única diferencia es e
 Una vista mas clara de cada modelo de forma esquematica y sus conexiones.
 
 ## Diagramas del chasis y el sistema de dirección
-Estos diagramas no tienen su medición en las fotos, las mediciones están en la descripción de cada foto. Los diagramas se hicieron en una hoja milímetrada, cada cuadrado mide 0.5cm,
+Estos diagramas no tienen su medición en las fotos, las mediciones están en la descripción de cada foto. Los diagramas se hicieron en una hoja milímetrada, cada cuadrado mide 0.5cm. Para la dirección nos inspiramos en hacerla de este video: https://www.youtube.com/watch?v=0pgU9oZoR14
 
 [Diagramas del carro](Chasis_de_la_plataforma_del_carro_y_soportes_de_la_dirección.jpeg)
 Se dividen en 3 piezas, plataforma, rectangulos en paralelo y piezas de forma circular al final dibujadas en la parte delantera de la plataforma:
