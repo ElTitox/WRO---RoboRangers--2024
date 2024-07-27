@@ -15,7 +15,7 @@ Estos diagramas no tienen su medición en las fotos, las mediciones están en la
 [Diagramas del carro](Chasis_de_la_plataforma_del_carro_y_soportes_de_la_dirección.jpeg)
 La plataforma tiene un largo de 17.5cm, al principio se penso hacerlo de 15cm, pero para solucionar problemas de espacio se decidio ampliar el largo, el ancho del frente y atras es de 7cm y el ancho del medio es de 9cm.
 
-[Pieza de la balinera](Pieza_de_la_balinera.jpeg)
+[Pieza de la balinera](Pieza_para_la_balinera.jpeg)
 
 
  9cm de ancho en el centro la lanza de 8cm y 17.5cm de largo
