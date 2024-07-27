@@ -7,4 +7,10 @@ Para hacer el esquemático usamos el software Fritzing, si desea ver con mas det
 El diseño es muy parecido al setup real del circuito, la única diferencia es el medio en donde fueron construidos, el real en placa perforadas y este con ayuda de una protoboard.
 
 [Esquematico del circuito eléctrico](Esquematico_del_circuito.jpeg)
-Una vista mas clara de cada modelo de forma esquematica y sus conexiones
+Una vista mas clara de cada modelo de forma esquematica y sus conexiones.
+
+## Diagramas del chasis y el sistema de dirección
+
+
+
+ 9cm de ancho en el centro la lanza de 8cm y 17.5cm de largo
