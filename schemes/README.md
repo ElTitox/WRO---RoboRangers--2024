@@ -20,7 +20,7 @@ Se dividen en 3 piezas, plataforma, rectangulos en paralelo y piezas de forma ci
 
 [Pieza de la balinera](Pieza_para_la_balinera.jpeg)
 Mediciones de cada parte de la pieza:
--La pieza tiene un diametro de 2.3cm, el círculo grande del medio (no el chico) tiene un diametro de 1.8cm. El círculo grande del medio va vacío ya que este círculo es donde va la balinera.
--Las patitas sobresalientes donde va la lanza tienen un ancho de 0.3cm, el espacio que los separa es de 0.4cm y un largo de 1cm, tanto como la patita como el espacio vacío.
+-  La pieza tiene un diametro de 2.3cm, el círculo grande del medio (no el chico) tiene un diametro de 1.8cm. El círculo grande del medio va vacío ya que este círculo es donde va la balinera.
+-  Las patitas sobresalientes donde va la lanza tienen un ancho de 0.3cm, el espacio que los separa es de 0.4cm y un largo de 1cm, tanto como la patita como el espacio vacío.
 
 [Diseño de la lanza](Lanza_de_la_direccón.jpeg)
