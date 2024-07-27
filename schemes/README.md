@@ -2,6 +2,6 @@
 ### Podran ver en fotos y archivos los esquemas de la propia plataforma del robot, del sistema de dirección y del circuito eléctrico.
 
 
-[Esquemático y diseño del circuito eléctrico](Diseño_del circuito_eléctrico.jpeg)
+[Esquemático y diseño del circuito eléctrico](Esquematico_del_circuito.jpeg)
 Para hacer el esquemático usamos el software Fritzing, si desea ver con mas detalle o modificar el circuito deberá de tenerlo descargado.
 
