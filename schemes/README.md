@@ -13,11 +13,14 @@ Una vista mas clara de cada modelo de forma esquematica y sus conexiones.
 Estos diagramas no tienen su medición en las fotos, las mediciones están en la descripción de cada foto. Los diagramas se hicieron en una hoja milímetrada, cada cuadrado mide 0.5cm,
 
 [Diagramas del carro](Chasis_de_la_plataforma_del_carro_y_soportes_de_la_dirección.jpeg)
-La plataforma tiene un largo de 17.5cm, al principio se penso hacerlo de 15cm, pero para solucionar problemas de espacio se decidio ampliar el largo, el ancho del frente y atras es de 7cm y el ancho del medio es de 9cm.
+Se dividen en 3 piezas, plataforma, rectangulos en paralelo y piezas de forma circular al final dibujadas en la parte delantera de la plataforma:
+-La plataforma tiene un largo de 17.5cm, al principio se penso hacerlo de 15cm, pero para solucionar problemas de espacio se decidio ampliar el largo, el ancho del frente y atras es de 7cm y el ancho del medio es de 9cm.
+-Los rectángulos que estan dibujados de forma paralela miden 2.6cm de largo y 0.7cm de ancho.
+-Las piezas dibujadas junto con la parte delantera del chasis y las ruedas, sostienen las piezaz de la balineras, son 4 piezas que hacer, en la parte de arriba y abajo. Esta pieza mide 2.3cm de largo y 0.8cm de ancho
 
 [Pieza de la balinera](Pieza_para_la_balinera.jpeg)
+Mediciones de cada parte de la pieza:
+-La pieza tiene un diametro de 2.3cm, el círculo grande del medio (no el chico) tiene un diametro de 1.8cm. El círculo grande del medio va vacío ya que este círculo es donde va la balinera.
+-Las patitas sobresalientes donde va la lanza tienen un ancho de 0.3cm, el espacio que los separa es de 0.4cm y un largo de 1cm, tanto como la patita como el espacio vacío.
 
-
- 9cm de ancho en el centro la lanza de 8cm y 17.5cm de largo
-7mm de ancho y 2.6cm
-largo de 2.3cm y 8mm de ancho
+[Diseño de la lanza](Lanza_de_la_direccón.jpeg)
