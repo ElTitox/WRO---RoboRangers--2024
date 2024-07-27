@@ -14,9 +14,9 @@ Estos diagramas no tienen su medición en las fotos, las mediciones están en la
 
 [Diagramas del carro](Chasis_de_la_plataforma_del_carro_y_soportes_de_la_dirección.jpeg)
 Se dividen en 3 piezas, plataforma, rectangulos en paralelo y piezas de forma circular al final dibujadas en la parte delantera de la plataforma:
--La plataforma tiene un largo de 17.5cm, al principio se penso hacerlo de 15cm, pero para solucionar problemas de espacio se decidio ampliar el largo, el ancho del frente y atras es de 7cm y el ancho del medio es de 9cm.
--Los rectángulos que estan dibujados de forma paralela miden 2.6cm de largo y 0.7cm de ancho.
--Las piezas dibujadas junto con la parte delantera del chasis y las ruedas, sostienen las piezaz de la balineras, son 4 piezas que hacer, en la parte de arriba y abajo. Esta pieza mide 2.3cm de largo y 0.8cm de ancho
+  -La plataforma tiene un largo de 17.5cm, al principio se penso hacerlo de 15cm, pero para solucionar problemas de espacio se decidio ampliar el largo, el ancho del frente y atras es de 7cm y el ancho del medio es de 9cm.
+  -Los rectángulos que estan dibujados de forma paralela miden 2.6cm de largo y 0.7cm de ancho.
+  -Las piezas dibujadas junto con la parte delantera del chasis y las ruedas, sostienen las piezaz de la balineras, son 4 piezas que hacer, en la parte de arriba y abajo. Esta pieza mide 2.3cm de largo y 0.8cm de ancho
 
 [Pieza de la balinera](Pieza_para_la_balinera.jpeg)
 Mediciones de cada parte de la pieza:
