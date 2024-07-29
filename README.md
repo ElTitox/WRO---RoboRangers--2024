@@ -2,8 +2,8 @@
 
 ## Los integrantes del equipo son:
 - Eldens Quintero  (Coordinador del equipo)  
-- Jose Gutierrez (Constructor del robot)
-- Hezir Corrales (Programador)
+- Hezir Corrales (Constructor del robot)
+- Jose Gutierrez (Programador)
   
 ## Institución: Instituo América 
 - Tutor: Hector Ortega
