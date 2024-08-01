@@ -27,9 +27,12 @@ Diseñamos el robot en sus inicios con distintos materiales como: ganchos de rop
 ### Procedimientos de contruccion del carro:
 
 Usamos la placa fenólica (placa perforada) de base para nuestro coche, esta placa tambien nos sirve para hacer conexiones de cables con soldadura.
-En ella colocamos un motor de 12V, Rack de Baterias en serie, 3 sensores ultrasonicos, 4 Taquillos plasticos azules atornillados en vertical desde abajo, y un sistema de direccion operada por un servo.
+En ella colocamos un motor de 12V en la parte trasera, en el centro de la placa un Rack de Baterias en serie, 3 sensores ultrasonicos en , 4 Taquillos plasticos azules atornillados en vertical desde abajo, y en la parte delantera un sistema de direccion hecha con PVC y operadas por un servo.
 
-Sobre el motor colocamos Puente H Doble con pegamento epoxi, los 4 tacos plasticos azules sirven de soporte para colocar un Arduino R4 a su vez dan espacio para colocar y retirar las pilas con mayor facilidad.
+Sobre el motor colocamos Puente H Doble con pegamento epoxy, los 4 tacos plasticos azules sirven de soporte para colocar un Arduino R4 a su vez dan espacio para colocar y retirar las pilas con mayor facilidad.
 
-En la parte inferior izquierda de la placa fenolica conectamos y soldamos todos los cables negativos a una tierra común y al otro lado todos los positivos de forma que la bateria alimenta a todo el circuito con 5V. 
+En la parte inferior izquierda de la placa fenolica conectamos y soldamos todos los cables negativos (tierra común) y al otro lado todos los positivos de forma que la bateria alimenta a todo el circuito con 5V.
+
+El (sistema de direccion)[schemes/Lanza_de_la_dirección.jpeg] esta hecha con PVC unidas con pegamento epoxy, balineras y clavos para sostener y permitir el giro de las ruedas, por ultimo la Lanza de la direccion (hecha de PVC) y unida servo con un alambre para que está se mueva.
+
 
