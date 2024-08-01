@@ -28,4 +28,8 @@ Diseñamos el robot en sus inicios con distintos materiales como: ganchos de rop
 
 Usamos la placa fenólica (placa perforada) de base para nuestro coche, esta placa tambien nos sirve para hacer conexiones de cables con soldadura.
 En ella colocamos un motor de 12V, Rack de Baterias en serie, 3 sensores ultrasonicos, 4 Taquillos plasticos azules atornillados en vertical desde abajo, y un sistema de direccion operada por un servo.
-Sobre el Puente H doble, 4 tacos plasticos azules sosteniendo un Arduino R4
+
+Sobre el motor colocamos Puente H Doble con pegamento epoxi, los 4 tacos plasticos azules sirven de soporte para colocar un Arduino R4 a su vez dan espacio para colocar y retirar las pilas con mayor facilidad.
+
+En la parte inferior izquierda de la placa fenolica conectamos y soldamos todos los cables negativos a una tierra común y al otro lado todos los positivos de forma que la bateria alimenta a todo el circuito con 5V. 
+
