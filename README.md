@@ -33,6 +33,7 @@ Sobre el motor colocamos Puente H Doble con pegamento epoxy, los 4 tacos plastic
 
 En la parte inferior izquierda de la placa fenolica conectamos y soldamos todos los cables negativos (tierra común) y al otro lado todos los positivos de forma que la bateria alimenta a todo el circuito con 5V.
 
-El [sistema de direccion](schemes/Lanza_de_la_dirección.jpeg) esta hecha con PVC unidas con pegamento epoxy, balineras y clavos para sostener y permitir el giro de las ruedas, por ultimo la Lanza de la direccion (hecha de PVC) y unida servo con un alambre para que está se mueva.
+El [sistema de direccion](schemes/Lanza_de_la_dirección.jpeg) esta hecha con PVC unidas con pegamento epoxy, usamos balineras y clavos para sostener y permitir el giro de las ruedas, por ultimo la Lanza de la direccion (hecha de PVC) y unida servo con un alambre para que está se mueva.
 
-
+Los sensores ultrasonicos van colocado en los extremos Norte, Este y Oeste del carro midiendo la pista a los lados y delante.
+Los 2 sensores ultasonicos laterales van colocados en los bordes del Rack de la bateria con cinta adhesiva doble contacto y en el sensor delantero es sostenido por un soporte angular hecho con alambres.
