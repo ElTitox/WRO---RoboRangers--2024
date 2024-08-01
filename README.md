@@ -33,6 +33,6 @@ Sobre el motor colocamos Puente H Doble con pegamento epoxy, los 4 tacos plastic
 
 En la parte inferior izquierda de la placa fenolica conectamos y soldamos todos los cables negativos (tierra común) y al otro lado todos los positivos de forma que la bateria alimenta a todo el circuito con 5V.
 
-El (sistema de direccion)[schemes/Lanza_de_la_dirección.jpeg] esta hecha con PVC unidas con pegamento epoxy, balineras y clavos para sostener y permitir el giro de las ruedas, por ultimo la Lanza de la direccion (hecha de PVC) y unida servo con un alambre para que está se mueva.
+El [sistema de direccion](schemes/Lanza_de_la_dirección.jpeg) esta hecha con PVC unidas con pegamento epoxy, balineras y clavos para sostener y permitir el giro de las ruedas, por ultimo la Lanza de la direccion (hecha de PVC) y unida servo con un alambre para que está se mueva.
 
 
