@@ -2,13 +2,14 @@
 #include <Wire.h>
 #include <MPU6050.h>
 
+// Definicion de Pines
 #define MOTOR_PIN1 5
 #define MOTOR_PIN2 6
 #define ENABLE_PIN 9
 #define SERVO_PIN 10
-#define ECHO_PIN_FRONT 7
+#define ECHO_PIN_FRONT 7  // Sensor Ultrasonico Delantero
 #define TRIG_PIN_FRONT 8
-#define ECHO_PIN_RIGHT_LEFT 11
+#define ECHO_PIN_RIGHT_LEFT 11  // Sensor Ultrasonico Izquierdo
 #define TRIG_PIN_RIGHT_LEFT 12
 #define LINE_SENSOR_PIN A0  // Pin del sensor de línea TCRT5000-1
 
@@ -119,7 +120,7 @@ void navigateTrack() {
   Serial.print(" gz: ");
   Serial.println(gz);
 
-  // Evitar colisiones con las paredes
+  // Evitar colisiones con paredes
   if (distanceFront < wallDistanceThreshold) {
     turnRight();
   } else if (distanceRight < wallDistanceThreshold) {
@@ -219,7 +220,6 @@ void returnToStart() {
 
   // Detenerse
   stopMoving();
-  Serial.println("Race Completed! :D");
 }
 
 void moveBackward() {
@@ -264,11 +264,10 @@ bool detectMagenta() {
 
   bool isMagenta = isColor(redFrequency, greenFrequency, blueFrequency, "magenta");
 
-  // Guardar las coordenadas del aparcamiento magenta la primera vez que se detecta
+  // Guardar las coordenadas del parking magenta la primera vez que se detecta
   if (isMagenta && parkingCoordFront == -1 && parkingCoordRight == -1) {
     parkingCoordFront = measureDistance(TRIG_PIN_FRONT, ECHO_PIN_FRONT);
     parkingCoordRight = measureDistance(TRIG_PIN_RIGHT_LEFT, ECHO_PIN_RIGHT_LEFT);
-    Serial.println("Parking coordinates saved.");
   }
 
   return isMagenta;
@@ -317,7 +316,7 @@ void moveToParkingCoordinates() {
 }
 
 void adjustParking() {
-  // Ajusta la posición del coche para estacionarse entre las paredes magentas sin tocarlas
+  // Ajusta la posición del coche para estacionarse entre las paredes magentas
   stopMoving();
 
   while (measureDistance(TRIG_PIN_FRONT, ECHO_PIN_FRONT) > wallDistanceThreshold) {
@@ -331,5 +330,4 @@ void adjustParking() {
   }
   stopTurning();
   stopMoving();
-  Serial.println("Parked between magenta walls.");
 }
