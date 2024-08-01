@@ -23,3 +23,9 @@ Diseñamos el robot en sus inicios con distintos materiales como: ganchos de rop
 -  Cinta doble contacto transparente
 -  Cautin y estaño
 -  Destornilladores punta plana
+
+### Procedimientos de contruccion del carro:
+
+Usamos la placa fenólica (placa perforada) de base para nuestro coche, esta placa tambien nos sirve para hacer conexiones de cables con soldadura.
+En ella colocamos un motor de 12V, Rack de Baterias en serie, 3 sensores ultrasonicos, 4 Taquillos plasticos azules atornillados en vertical desde abajo, y un sistema de direccion operada por un servo.
+Sobre el Puente H doble, 4 tacos plasticos azules sosteniendo un Arduino R4
