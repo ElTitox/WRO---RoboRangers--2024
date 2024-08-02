@@ -1,6 +1,6 @@
 #include <Servo.h>
 
-#define Pi 3.1415926535897932384626433832795
+// Se establece el servomotor en el pin 6
 #define SERVO_PIN 6
 
 // ServoMotor
@@ -11,6 +11,8 @@ const int enA = 9;
 const int in1 = 8;
 const int in2 = 7;
 
+// Se define esta variable para controlar as distancias a las que va elcarrito, a velocidad maxima hace 1 rotación por cada 0.233 segundos
+// Se calculo la velocidad lineal del robot para sacar este valor, puede variar dependiendo del peso 
 const int RotacionesPorTiempo = 223; // 0.223 segundos por rotación
 int girosTotales = 0; // Contador de giros totales
 
@@ -18,7 +20,9 @@ void setup() {
   Serial.begin(9600);
 
   // Configurar pines del puente H
+    // Pin del puente H que controla la velocidad con el pin 9 del arduino
   pinMode(enA, OUTPUT);
+    // Pines de entrada del puente H dependiendo de como se configuren los pines de salida del arduino, puede controlarse el sentido, si va adelante o reversa.
   pinMode(in1, OUTPUT);
   pinMode(in2, OUTPUT);
   
@@ -26,6 +30,7 @@ void setup() {
   servoMotor.attach(SERVO_PIN);
 }
 
+// Este modulo es el que controla las rotaciones, la ecuación convierte la variable Rotaciones por tiempo en tiempo por rotacion multiplicando la rotaciones puestas en la variable int 
 void moveForward(int rotaciones) {
   // Ecuacion para rotaciones
   int tiempoDeRotacion = rotaciones * RotacionesPorTiempo;
