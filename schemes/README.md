@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/02f2b3ab-4af6-45ed-86cb-373789e96367)# Diagramas Electromecánicos
+# Diagramas Electromecánicos
 ### Podran ver en fotos y archivos los esquemas de la propia plataforma del robot, del sistema de dirección y del circuito eléctrico. 
 
 ## Esquemático y diseño del circuito eléctrico
