@@ -1,4 +1,4 @@
-# Diagramas Electromecánicos
+![image](https://github.com/user-attachments/assets/02f2b3ab-4af6-45ed-86cb-373789e96367)# Diagramas Electromecánicos
 ### Podran ver en fotos y archivos los esquemas de la propia plataforma del robot, del sistema de dirección y del circuito eléctrico. 
 
 ## Esquemático y diseño del circuito eléctrico
@@ -28,3 +28,20 @@ Mediciones de cada parte de la pieza:
 
 [Diseño de la lanza](Lanza_de_la_direccón.jpeg)
 La lanza tiene un largo de 8cm y un ancho de 0.8cm.
+
+
+## Desglose de Corrientes en mA
+Arduino Uno R4: ~70 mA
+Sensor ultrasónico HC-SR04: ~15 mA
+Puente H L298N: ~30 mA
+Motor DC: ~250 mA 
+Servo SG-92: ~250 mA (en movimiento)
+
+### Cálculo del Consumo Total de Corriente
+Arduino Uno R4: 70 mA
+3 Sensores ultrasónicos HC-SR04: 3 * 15 mA = 45 mA
+Puente H L298N: 30 mA
+Motor DC: 250 mA
+Servo SG-92: 250 mA
+
+Consumo total: 655mA
