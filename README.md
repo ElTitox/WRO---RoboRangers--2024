@@ -16,9 +16,11 @@ Diseñamos el robot en sus inicios con distintos materiales como: ganchos de rop
 -  Lamina de acrilico
 -  Placa perforada
 -  Tornillos con sus tuercas
--  Tacos para soporte
+-  Tacos azules para soporte
 -  Nanocinta acrílica doble contacto
 -  Rollo de Estaño y Flux
+-  Clavos y tornillos
+-  Sunchos
 
 ### Herramientas:
 -  Taladro con diferentes brocas y lijas
