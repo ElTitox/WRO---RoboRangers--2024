@@ -42,7 +42,7 @@ En ella colocamos un motor de 12V en la parte trasera, en el centro de la placa 
 Sobre el motor colocamos Puente H Doble con pegamento epoxy, los 4 tacos plasticos azules sirven de soporte para colocar un Arduino 1 R3 a su vez dan espacio para colocar y retirar las pilas con mayor facilidad.
 
   Los sensores ultrasonicos van colocado en los extremos Norte, Este y Oeste del carro midiendo la pista a los lados y delante.
-  Los 2 sensores ultasonicos laterales van colocados en los bordes del Rack de la bateria con cinta adhesiva doble contacto y el sensor delantero es sostenido sobre un servo motor para que se mueva como un radar; arriba del sensor de color. 
+  Los 2 sensores ultasonicos laterales van colocados en los bordes del Rack de la bateria con cinta adhesiva doble contacto y el sensor delantero es sostenido sobre un servo motor para que se mueva como un radar, colocado arriba del sensor de color. 
 
 
 - Parte trasera del carro:  
