@@ -28,6 +28,7 @@ Diseñamos el robot en sus inicios con distintos materiales como: ganchos de rop
 -  Cautin
 -  Destornilladores punta plana
 -  Destornillador punta de estrella
+-  Alicate
 -  Pinza Pelacables
 -  Pinza punta plana
 
@@ -41,7 +42,7 @@ En ella colocamos un motor de 12V en la parte trasera, en el centro de la placa 
 Sobre el motor colocamos Puente H Doble con pegamento epoxy, los 4 tacos plasticos azules sirven de soporte para colocar un Arduino 1 R3 a su vez dan espacio para colocar y retirar las pilas con mayor facilidad.
 
   Los sensores ultrasonicos van colocado en los extremos Norte, Este y Oeste del carro midiendo la pista a los lados y delante.
-  Los 2 sensores ultasonicos laterales van colocados en los bordes del Rack de la bateria con cinta adhesiva doble contacto y en el sensor delantero es sostenido por un soporte angular hecho con alambres.
+  Los 2 sensores ultasonicos laterales van colocados en los bordes del Rack de la bateria con cinta adhesiva doble contacto y el sensor delantero es sostenido sobre un servo motor para que se mueva como un radar; arriba del sensor de color. 
 
 
 - Parte trasera del carro:  
@@ -49,4 +50,4 @@ El motor se modifico con una caja de cambio, esta se encuentra ubicada en la par
 En la parte inferior izquierda de la placa fenolica conectamos y soldamos todos los cables negativos (tierra común) y al otro lado todos los positivos de forma que la bateria alimenta a todo el circuito con 5V.
 
 - Parte delantera del carro:  
-El [sistema de direccion](schemes/Lanza_de_la_dirección.jpeg) esta hecha con PVC unidas con pegamento epoxy, usamos balineras y clavos para sostener y permitir el giro de las ruedas, por ultimo la Lanza de la direccion (hecha de PVC) y unida servo con un alambre para que está se mueva. El Servo sobresale por la parte superior para facilitar la conexion de los pines hacia el arduino y no estorbe en el giro del carro.
+El [sistema de direccion](schemes/Lanza_de_la_dirección.jpeg) esta hecha con PVC unidas con pegamento epoxy, usamos balineras y clavos para sostener y permitir el giro de las ruedas, por ultimo la Lanza de la direccion (hecha de PVC) y unida servo con un alambre para que está se mueva. El Servo sobresale por la parte superior para facilitar la conexion de los pines hacia el arduino y no estorbe en el giro del carro, ademas agregamos un sensor de color TCS3200 lo cual nos ayudara a la hora de la segunda ronda donde el carro tendra que dectectar los colores.
