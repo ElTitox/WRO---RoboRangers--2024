@@ -14,4 +14,4 @@ De la misma forma que del lado derecho, lo unico a destacar es que no es igual a
 Lo que mas destaca es el arduino y las conexiones del arduino para los sensores, motores y la alimentación para el arduino. 
 
 [Diseño del frente](Vista_del_frente_del_robot.jpeg)
-Se aprecia el sistema de dirección del carro, hecha desde 0 con materiales de pvc y lamina de acrilico. La instalación del sensor ultrasonico del frente.
+Se aprecia el sistema de dirección del carro, hecha desde 0 con materiales de pvc y lamina de acrilico. La instalación del sensor ultrasonico y el sensor de color del frente.
