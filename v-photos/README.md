@@ -22,14 +22,14 @@ Se aprecia el sistema de dirección del carro, hecha desde 0 con materiales de p
 
 - Para el enfoque de este diseño nos basamos en el anterior pero con mejoras variadas:
 
-[Diseño de abajo](Vista_de_abajo_del_robot2.jpg)
+[Diseño 2 de abajo](Vista_de_abajo_del_robot2.jpg)
 
-[Diseño de arriba](Vista_de_arriba_del_robot2.jpg)
+[Diseño 2 de arriba](Vista_de_arriba_del_robot2.jpg)
 
-[Diseño del frente](Vista_del_frente_del_robot2.jpg)
+[Diseño 2 del frente](Vista_del_frente_del_robot2.jpg)
 
-[Diseño del lado derecho](Vista_del_lado_derecho_del_robot2.jpg)
+[Diseño 2 del lado derecho](Vista_del_lado_derecho_del_robot2.jpg)
 
-[Diseño del lado izquierdo](Vista_del_lado_izquierdo_del_robot2.jpg)
+[Diseño 2 del lado izquierdo](Vista_del_lado_izquierdo_del_robot2.jpg)
 
-[Diseño trasero](Vista_del_frente_del_robot2.jpg)
+[Diseño 2 trasero](Vista_del_frente_del_robot2.jpg)
