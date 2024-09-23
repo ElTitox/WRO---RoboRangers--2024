@@ -21,6 +21,7 @@ Se aprecia el sistema de dirección del carro, hecha desde 0 con materiales de p
 ## Diseño del robot para la Nacional
 
 - Para el enfoque de este diseño nos basamos en el anterior pero con mejoras variadas:
+
 [Diseño de abajo](Vista_de_abajo_del_robot2.jpg)
 
 [Diseño de arriba](Vista_de_arriba_del_robot2.jpg)
