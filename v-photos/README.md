@@ -1,4 +1,4 @@
-##Diseño del robot usado en la Regional
+## Diseño del robot usado en la Regional
 
 [Diseño trasero](a.Vista_del_frente_del_robot1.jpeg) 
 Como se puede observar, se diseño una tracción trasera con una caja de engranajes sacada de un carrito rc, modificada con un motor DC de hasta 12V , arriba de la caja esta puesto el puente H L298N. Mas al frente se nota la posición del arduino.
@@ -18,7 +18,7 @@ Lo que mas destaca es el arduino y las conexiones del arduino para los sensores,
 [Diseño del frente](a.Vista_del_frente_del_robot1.jpeg)
 Se aprecia el sistema de dirección del carro, hecha desde 0 con materiales de pvc y lamina de acrilico. La instalación del sensor ultrasonico.
 
-##Diseño del robot para la Nacional
+## Diseño del robot para la Nacional
 
 - Para el enfoque de este diseño nos basamos en el anterior pero con mejoras variadas:
 [Diseño de abajo](Vista_de_abajo_del_robot2.jpg)
