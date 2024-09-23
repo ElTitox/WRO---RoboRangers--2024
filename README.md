@@ -46,6 +46,8 @@ Diseñamos el robot en sus inicios con distintos materiales como: ganchos de rop
 
 ## Procedimientos de contruccion del carro:
 
+[Construccion y procedimiento del carro ](schemes/other)
+
 - Construcción de la base del carro:  
 Usamos la placa fenólica (placa perforada) de base para nuestro coche, esta placa tambien nos sirve para hacer conexiones de cables con soldadura.
 En ella colocamos un motor de 12V en la parte trasera, en el centro de la placa un Rack de Baterias en serie, 3 sensores ultrasonicos, 4 Taquillos plasticos azules atornillados en vertical desde abajo, y en la parte delantera un sistema de direccion hecha con PVC y operadas por un servo mediante un alambre de aluminio con el calibre suficiente para ser moldeado pero preferiblemente que sea duro.
