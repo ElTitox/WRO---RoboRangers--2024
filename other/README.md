@@ -19,8 +19,8 @@ Este fue el proyecto presentado a nuestras primeras olimpiadas e inaguracion, pe
 [Diseño Numero-4](proyecto-4.cuarta-base.jpeg)
 y por ultimo la encontramos una base totalmente funcional y que pudiera soportar lo componente ya solo es de probar todos los componenetes que funcionen de la devida manera a la hora de la competencia y tener los programas listos.
 
-[Diseño Final Regional](proyecto-final-del-carro-regional.jpeg)
+[Diseño Final Regional](proyecto-final1-del-carro-regional.jpeg)
 tenemos el diseño final de las regional el cual fue nuestro carro; este diseño ha sido creado con el objetivo de mejorar la funcionalidad y el rendimiento en la pista, incorporando las modificaciones necesarias para asegurar su operatividad y eficacia, ademas de ser el diseño final utilizado en las regionales
 
-[Diseño Final Nacional](proyecto-final-del-carro-nacional.jpeg)
+[Diseño Final Nacional](proyecto-final2-del-carro-nacional.jpeg)
 con esta estructura logramos realizar un carro que pueda competir a nivel nacional, optimizando su diseño en términos de velocidad, estabilidad y eficiencia mecánica. Este diseño final toma en cuenta los aspectos observados en los prototipos anteriores, incorporando mejoras para maximizar el rendimiento en pista segun los obstaculos que se le presente.
