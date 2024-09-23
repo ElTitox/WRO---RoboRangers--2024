@@ -46,7 +46,7 @@ Diseñamos el robot en sus inicios con distintos materiales como: ganchos de rop
 
 ## Procedimientos de contruccion del carro:
 
-La [Construccion y el procedimiento del diseño del carro ](./other/) lo podemos encontrar en la carpeta other.
+La [Construccion y el procedimiento del carro ](./other/) lo podemos encontrar en la carpeta other y el [diseño del carro ](./v-photos/) en la carpeta v-photos.
 
 - Construcción de la base del carro:  
 Usamos la placa fenólica (placa perforada) de base para nuestro coche, esta placa tambien nos sirve para hacer conexiones de cables con soldadura.
