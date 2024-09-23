@@ -59,7 +59,7 @@ Sobre el motor colocamos Puente H Doble con pegamento epoxy, los 4 tacos plastic
 
 - Parte trasera del carro:  
 El motor se modifico con una caja de cambio, esta se encuentra ubicada en la parte de atras y se mantiene en su lugar usando una corra de cuero atornillada a la placa fenólica y usando una tecnica de pegado con Pegamento (cianoacrilato) y Poliestireno.
-En la parte inferior izquierda de la placa fenolica conectamos y soldamos todos los cables negativos (tierra común) y al otro lado todos los positivos de forma que la bateria alimenta a todo el circuito con 5V.
+En la parte inferior izquierda de la placa fenolica conectamos y soldamos todos los cables negativos (tierra común) y al otro lado todos los positivos de forma que la bateria alimenta al puenta H con un intervalo de 11.1V a 12.6V y a todo el circuito con 5V regulado por el puente H.
 
 - Parte delantera del carro:  
 El [sistema de direccion](schemes/Lanza_de_la_dirección.jpeg) esta hecha con PVC unidas con pegamento epoxy, usamos balineras y clavos para sostener y permitir el giro de las ruedas, por ultimo la Lanza de la direccion (hecha de PVC) y unida servo con un alambre para que está se mueva. El Servo sobresale por la parte superior para facilitar la conexion de los pines hacia el arduino y no estorbe en el giro del carro; ademas agregamos un sensor de color TCS3200 lo cual nos ayudara a la hora de la segunda ronda donde el carro tendra que dectectar los colores.
