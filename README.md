@@ -39,7 +39,7 @@ Diseñamos el robot en sus inicios con distintos materiales como: ganchos de rop
 -  sensores: 3 sensores ultrasónicos HC-S04, 1 sensor de color TCS3200
 -  ARDUINO 1 R3
 -  Servo: 2 servo motores SG90
--  Puente H 298N
+-  Puente H L298N
 -  Motor DC12V
 -  Cables: Macho-Macho, Macho-Hembra y Cable Rígido
 -  Switch on/off
