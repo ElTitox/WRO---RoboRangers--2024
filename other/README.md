@@ -22,5 +22,5 @@ y por ultimo la encontramos una base totalmente funcional y que pudiera soportar
 [Diseño Final Regional](proyecto-final1-del-carro-regional.jpeg)
 tenemos el diseño final de las regional el cual fue nuestro carro; este diseño ha sido creado con el objetivo de mejorar la funcionalidad y el rendimiento en la pista, incorporando las modificaciones necesarias para asegurar su operatividad y eficacia, ademas de ser el diseño final utilizado en las regionales
 
-[Diseño Final Nacional](proyecto-final2-del-carro-nacional.jpeg)
+[Diseño Final Nacional](proyecto-final2-del-carro-nacional.jpg)
 con esta estructura logramos realizar un carro que pueda competir a nivel nacional, optimizando su diseño en términos de velocidad, estabilidad y eficiencia mecánica. Este diseño final toma en cuenta los aspectos observados en los prototipos anteriores, incorporando mejoras para maximizar el rendimiento en pista segun los obstaculos que se le presente.
