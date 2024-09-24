@@ -34,7 +34,7 @@ La lanza tiene un largo de 8cm y un ancho de 0.8cm ademas de la lanza anterior p
 [MRU](Movimiento_rectilíneo_uniforme.jpeg)
 para calcular la velocidad lineal usamos un metro y pusimos la punta del carro en el inicio del metro y calculamos el tiempo en el recorria el metro, nos dio los siguiente resultados: 75,85 y 88 milisegundos de ellos sacamos el promedio que fue 83 y tener un aproximado de velocidad; llegamos a la conclución que la velocidad maxima del carrito es 1.20m/s. 
 
-## Desglose de Corrientes en mA
+## Desglose de Corrientes en mA anterior
 - Arduino Uno R4: ~70 mA
 - Sensor ultrasónico HC-SR04: ~15 mA
 - Puente H L298N: ~30 mA
