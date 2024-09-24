@@ -1,6 +1,6 @@
 ## Diseño del robot usado en la Regional
 
-[Diseño trasero](a.Vista_del_frente_del_robot1.jpeg) 
+[Diseño trasero](a.Vista_trasera_del_robot1.jpeg) 
 
 
 [Diseño de abajo](a.Vista_de_abajo_del_robot1.jpeg) 
@@ -37,5 +37,5 @@ Se observa en donde estan los componentes en el carro, ultrasonicos, puente H, l
 [Diseño del lado izquierdo](Vista_del_lado_izquierdo_del_robot2.jpg)
 De la misma forma que del lado derecho, lo unico a destacar es que no es igual al lado derecho, los sensores estan en una posicion diferente a los del lado derecho.
 
-[Diseño trasero](Vista_del_frente_del_robot2.jpg)
+[Diseño trasero](Vista_trasera_del_robot2.jpg)
 Como se puede observar, se diseño una tracción trasera con una caja de engranajes sacada de un carrito rc, modificada con un motor DC de hasta 12V , arriba de la caja esta puesto el puente H L298N. Mas al frente se nota la posición del arduino.
