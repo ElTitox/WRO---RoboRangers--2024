@@ -37,7 +37,6 @@ para calcular la velocidad lineal usamos un metro y pusimos la punta del carro e
 ## 1. Especificaciones Electrónicas
 - **Motor DC:**
   - Voltaje nominal: 12V
-  - Voltaje de operación: 10V
 - **Batería:**
   - Conexión: En serie
   - Voltaje de cada pila: 3.7V
