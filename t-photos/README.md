@@ -1,6 +1,10 @@
-Team's photos
+Fotos del equipo
 ====
 
-This directory contain 2 photos of the team (an official one and one funny photo with all team members)
+Este directorio contiene 3 fotos del equipo (una oficial, una con el carrito y una foto divertida con todos los miembros del equipo)
 
-https://drive.google.com/drive/folders/1X4tjPOforZlUNt4FBy9sW50mKYGw6gH_?usp=drive_link
+[- foto oficial de competencia](foto_oficial_inauguración.jpg)
+
+[- foto del equipo](foto_del_equipo.jpg)
+
+[- foto con el carrito](foto_con_el_carrito.jpeg)
