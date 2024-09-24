@@ -6,6 +6,8 @@ Para hacer el esquemático usamos el software Fritzing, si desea ver con mas det
 
 [Archivo del circuito](Primera_ronda_wro.fzz) Descarga del archivo del circuito eléctrico.
 
+[Imagen del circuito](Primera_ronda_wro.fzz.jpeg) Imagen del archivo del circuito eléctrico.
+
 [Diseño del circuito eléctrico](Diseño_del_circuito_eléctrico.jpeg)
 El diseño es muy parecido al setup real del circuito, la única diferencia es el medio en donde fueron construidos, el real en placa perforadas y este con ayuda de una protoboard.
 
@@ -47,3 +49,20 @@ para calcular la velocidad lineal usamos un metro y pusimos la punta del carro e
 - Servo SG-92: 250 mA
 
 Consumo total: 655mA
+
+
+## Actualización del Desglose de Corrientes en mA
+Arduino Uno R3: ~50 mA
+Sensor ultrasónico HC-SR04: ~15 mA
+Puente H L298N: ~30 mA
+Motor DC: ~250 mA
+Servo SG-92: ~250 mA (en movimiento)
+
+### Cálculo del Consumo Total de Corriente
+Arduino Uno R3: 50 mA
+3 Sensores ultrasónicos HC-SR04: 3 * 15 mA = 45 mA
+Puente H L298N: 30 mA
+Motor DC: 250 mA
+Servo SG-92: 250 mA
+
+Consumo total: 50 + 45 + 30 + 250 + 250 = 625 mA
