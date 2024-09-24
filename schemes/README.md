@@ -26,9 +26,11 @@ Mediciones de cada parte de la pieza:
 -  La pieza tiene un diametro de 2.3cm, el círculo grande del medio (no el chico) tiene un diametro de 1.8cm. El círculo grande del medio va vacío ya que este círculo es donde va la balinera.
 -  Las patitas sobresalientes donde va la lanza tienen un ancho de 0.3cm, el espacio que los separa es de 0.4cm y un largo de 1cm, tanto como la patita como el espacio vacío.
 
-[Diseño de la lanza](Lanza_de_la_direccón.jpeg)
-La lanza tiene un largo de 8cm y un ancho de 0.8cm.
+[Diseño de la lanza](Lanza_de_la_dirección_anterior.jpeg)
+La lanza tiene un largo de 8cm y un ancho de 0.8cm ademas de la lanza anterior para el nuevo diseño del carro nos guiamos de la misma, para hacer el [diseño de la lanza nueva.](Lanza_de_la_dirección_nueva.jpeg).
 
+[MRU](Movimiento_rectilíneo_uniforme.jpeg)
+para calcular la velocidad lineal usamos un metro y pusimos la punta del carro en el inicio del metro y calculamos el tiempo en el recorria el metro, nos dio los siguiente resultados: 75,85 y 88 milisegundos de ellos sacamos el promedio que fue 83 y tener un aproximado de velocidad; llegamos a la conclución que la velocidad maxima del carrito es 1.20m/s. 
 
 ## Desglose de Corrientes en mA
 - Arduino Uno R4: ~70 mA
