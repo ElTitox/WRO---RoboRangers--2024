@@ -34,6 +34,48 @@ La lanza tiene un largo de 8cm y un ancho de 0.8cm ademas de la lanza anterior p
 [MRU](Movimiento_rectilíneo_uniforme.jpeg)
 para calcular la velocidad lineal usamos un metro y pusimos la punta del carro en el inicio del metro y calculamos el tiempo en el recorria el metro, nos dio los siguiente resultados: 75,85 y 88 milisegundos de ellos sacamos el promedio que fue 83 y tener un aproximado de velocidad; llegamos a la conclución que la velocidad maxima del carrito es 1.20m/s. 
 
+## 1. Especificaciones Electrónicas
+- **Motor DC:**
+  - Voltaje nominal: 12V
+  - Voltaje de operación: 10V
+- **Batería:**
+  - Conexión: En serie
+  - Voltaje de cada pila: 3.7V
+  - Capacidad de cada pila: 3200 mAh
+- **Microcontrolador:**
+  - Tipo: Arduino R3
+- **Sensores:**
+  - Sensores ultrasónicos: 3
+  - Sensor de color: 1 
+
+---
+
+## 2. Especificaciones Mecánicas
+- **Sistema de Engranajes:**
+  - **Primera Etapa: Motor a Primer Engranaje**
+    - Engranaje motor:
+      - Dientes: 8
+    - Engranaje conducido:
+      - Dientes: 12
+    - Relación de Transmisión (RT1):
+      - RT1 = Dientes del engranaje conducido / Dientes del engranaje motor
+      - RT1 = 12 / 8 = 1.5
+  - **Segunda Etapa: Engranaje de 30 Dientes**
+    - Engranaje motor:
+      - Dientes: 30
+    - Engranaje conducido:
+      - Dientes: 30
+    - Relación de Transmisión (RT2):
+      - RT2 = Dientes del engranaje conducido / Dientes del engranaje motor
+      - RT2 = 30 / 30 = 1
+- **Relación de Transmisión Total (RT Total):**
+  - RT total = RT1 × RT2
+  - RT total = 1.5 × 1 = 1.5
+- **Torque:**
+  - Torque ajustado = Torque a 12V × (10 / 12)
+  - Torque en las llantas = Torque ajustado × 1.5
+
+
 ## Desglose de Corrientes en mA anterior
 - Arduino Uno R4: ~70 mA
 - Sensor ultrasónico HC-SR04: ~15 mA
