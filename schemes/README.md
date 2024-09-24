@@ -4,9 +4,9 @@
 ## Esquemático y diseño del circuito eléctrico
 Para hacer el esquemático usamos el software Fritzing, si desea ver con mas detalle o modificar el circuito deberá de tenerlo descargado. Descargar Fritzing: https://fritzing.org/download
 
-[Archivo del circuito](Primera_ronda_wro.fzz) Descarga del archivo del circuito eléctrico.
+[Archivo del circuito](./Fritzing/Primera_ronda_wro.fzz) Descarga del archivo del circuito eléctrico.
 
-[Imagen del circuito](Primera_ronda_wro.fzz.jpeg) Imagen del archivo del circuito eléctrico.
+[Imagen del circuito](./Fritzing/Primera_ronda_wro.fzz.jpeg) Imagen del archivo del circuito eléctrico.
 
 [Diseño del circuito eléctrico](Diseño_del_circuito_eléctrico.jpeg)
 El diseño es muy parecido al setup real del circuito, la única diferencia es el medio en donde fueron construidos, el real en placa perforadas y este con ayuda de una protoboard.
