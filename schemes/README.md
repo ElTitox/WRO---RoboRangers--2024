@@ -52,17 +52,17 @@ Consumo total: 655mA
 
 
 ## Actualización del Desglose de Corrientes en mA
-Arduino Uno R3: ~50 mA
-Sensor ultrasónico HC-SR04: ~15 mA
-Puente H L298N: ~30 mA
-Motor DC: ~250 mA
-Servo SG-92: ~250 mA (en movimiento)
+-Arduino Uno R3: ~50 mA
+-Sensor ultrasónico HC-SR04: ~15 mA
+-Puente H L298N: ~30 mA
+-Motor DC: ~250 mA
+-Servo SG-92: ~250 mA (en movimiento)
 
 ### Cálculo del Consumo Total de Corriente
-Arduino Uno R3: 50 mA
-3 Sensores ultrasónicos HC-SR04: 3 * 15 mA = 45 mA
-Puente H L298N: 30 mA
-Motor DC: 250 mA
-Servo SG-92: 250 mA
+-Arduino Uno R3: 50 mA
+-3 Sensores ultrasónicos HC-SR04: 3 * 15 mA = 45 mA
+-Puente H L298N: 30 mA
+-Motor DC: 250 mA
+-Servo SG-92: 250 mA
 
 Consumo total: 50 + 45 + 30 + 250 + 250 = 625 mA
