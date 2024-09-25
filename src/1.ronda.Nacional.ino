@@ -16,7 +16,6 @@ long duration;
 float distanceR;
 float distanceL;
 
-const int RotacionesPorTiempo = 223;  // Número de rotaciones por tiempo
 bool haDetectadoLado = false;
 bool giroDerecha = false;  // Indica si el giro es a la derecha
 
@@ -34,85 +33,73 @@ void setup() {
   pinMode(TRIG_PIN_L, OUTPUT);
   pinMode(ECHO_PIN_L, INPUT);
 
-  servoMotor.write(77);  
-  delay(500);
+  servoMotor.write(90);
+  moveForward();
+  delay(480);
+  
+  stopMotor(); // Motor detenido indefinidamente al inicio
 }
 
 void loop() {
-  // Solo se ejecuta si no se ha detectado un lado previamente
-  if (!haDetectadoLado) {
-    moveForward();  // El motor sigue moviéndose a velocidad normal
-
+  // El motor está detenido hasta que se detecte una distancia
+  if (!haDetectadoLado) { // Es una condición para controlar el estado del motor, en este caso la condicion se hace cierta si detecto algun lado, se puede ver posteriormente en el loop una decisión para cambiar de estado esta variable.
     // Medir distancias
-    distanceR = measure('R') + 2.50;
-    distanceL = measure('L') + 2.50;
+    distanceR = measure('R') + 2.50; // Error de medidda en el lado derecho
+    distanceL = measure('L') + 2.50; // Error de medida en el lado izquierdo
 
-    Serial.print("Distancia Derecha: ");
-    Serial.println(distanceR);
-    Serial.print("Distancia Izquierda: ");
-    Serial.println(distanceL);
+    Serial.print("Distancia Derecha: "); // Impresiones para conocer el estado del ultrasonico derecho
+    Serial.println(distanceR);  // Medición de la distancia del ultrasonico derecho
+    Serial.print("Distancia Izquierda: "); // Impresiones para conocer el estado del ultrasonico izquierdo
+    Serial.println(distanceL);  // Medición de la distancia del ultrasonico izquierdo
 
-    // Comprobar condiciones de giro
-    if (distanceR > 150 || distanceL > 150) {
-      haDetectadoLado = true;
+    // Comprobar si alguna distancia cumple la condición para girar
+    if ((distanceR > 90 && distanceR < 900) || (distanceL > 90 && distanceL < 900)) { // Ésta decisión tiene condiciones con intervalos debido a tomar una posible medición de una esquina
+      haDetectadoLado = true; // Una vez se cumpla cualquiera de las 2 condiciones esta variable se activa en true y 
       Serial.println("Giro detectado");
 
-      // Establecer velocidad del motor antes de girar
-      analogWrite(enB, 230);  // Aumentar a 230 antes de girar
-
       // Determinar dirección del giro
-      if (distanceR > 150) {
+      if (distanceR > 90 && distanceR < 900) {
         giroDerecha = true;
         servoMotor.write(180);  // Gira a la derecha
-        moveForward();          // Avanzar mientras gira
-        rotateRight(0.5);      // Girar 0.5 rotaciones a la derecha
-      } else {
+        moveForward();         // Avanzar mientras gira
+        delay(550);
+        servoMotor.write(90);
+
+      } else if (distanceL > 90 && distanceL < 900) {
         giroDerecha = false;
         servoMotor.write(0);    // Gira a la izquierda
-        moveForward();          // Avanzar mientras gira
-        rotateLeft(0.5);       // Girar 0.5 rotaciones a la izquierda
+        moveForward();           // Avanzar mientras gira
+        delay(450);
+        servoMotor.write(90);
       }
 
       // Detener el motor y ajustar el servo
-      stopMotor();             // Detener el motor
+      stopMotor();             
       delay(600);              // Esperar medio segundo
 
       // Activar el motor y girar el servo simultáneamente
       analogWrite(enB, 255);  // Encender el motor a velocidad máxima
 
-      // Girar completamente
-      if (giroDerecha) {
-        moveForward();
-        rotateRight(0.5);        // Rotar el servo a la derecha
-      } else {
-        moveForward();
-        rotateLeft(0.5);         // Rotar el servo a la izquierda
-      }
-      servoMotor.write(77);    // Ajustar el servo a la posición recta
-
       // Ejecutar el bucle de avanzar y girar
       for (int i = 0; i < 11; i++) {
         moveForward();  // Avanzar indefinidamente
-        delay(1000);    // Esperar 1.4 segundos
+        delay(900);    // Esperar 0.9 segundos
 
         // Girar en la dirección determinada inicialmente
         if (giroDerecha) {
           servoMotor.write(180);  // Gira a la derecha
-          delay(700);              // Mantener giro por 0.5 segundos
+          delay(600);             // Mantener giro por 0.6 segundos
         } else {
           servoMotor.write(0);    // Gira a la izquierda
-          delay(700);              // Mantener giro por 0.5 segundos
+          delay(600);             // Mantener giro por 0.6 segundos
         }
-        servoMotor.write(77);      // Ajustar el servo a la posición recta
+        servoMotor.write(90);     // Ajustar el servo a la posición recta
       }
 
       // Detener el motor indefinidamente
       stopMotor();
-      while (true);  // Pausa el motor indefinidamente
+      while (true);  // Pausar el motor indefinidamente
     }
-  } else {
-    // Mantener el motor encendido indefinidamente
-    moveForward();  // Asegurarse de que sigue avanzando
   }
 }
 
@@ -144,18 +131,4 @@ void stopMotor() {
   analogWrite(enB, 0);  // Detener el motor
   digitalWrite(in3, LOW);
   digitalWrite(in4, LOW);
-}
-
-// Función para girar a la derecha
-void rotateRight(int rotaciones) {
-  int tiempoDeRotacion = rotaciones * RotacionesPorTiempo;
-  servoMotor.write(180);
-  delay(tiempoDeRotacion);  // Tiempo de giro
-}
-
-// Función para girar a la izquierda
-void rotateLeft(int rotaciones) {
-  int tiempoDeRotacion = rotaciones * RotacionesPorTiempo;
-  servoMotor.write(0);
-  delay(tiempoDeRotacion);  // Tiempo de giro
 }
